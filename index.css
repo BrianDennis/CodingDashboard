@@ -5,3 +5,22 @@
 h1{
   color: white;
 }
+
+li{
+  float: left;
+  display: inline;
+  margin-right: 15px;
+  color: #a3a3a3;
+}
+
+li:hover{
+  color: white;
+}
+
+.row2{
+  margin-top: 10%;
+}
+
+.row1{
+  margin-top: 5%;
+}
