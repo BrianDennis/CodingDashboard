@@ -30,3 +30,14 @@ p{
   text-align: center;
   padding-top:15px;
 }
+
+li{
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+ul{
+  display: table;
+  margin: 0 auto;
+  padding-left: 0px;
+}
