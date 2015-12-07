@@ -4,6 +4,7 @@
 
 h1{
   color: white;
+  font-family: Roboto;
 }
 
 .menuItem{
@@ -11,6 +12,7 @@ h1{
   display: inline;
   margin-right: 15px;
   color: #a3a3a3;
+  font-family: Roboto;
 }
 
 .menuItem:hover{
@@ -19,6 +21,7 @@ h1{
 
 .row2{
   margin-top: 10%;
+  margin-bottom: 20%;
 }
 
 .row1{
@@ -44,4 +47,31 @@ ul{
   margin: 0 auto;
   padding-left: 0px;
   padding-top: 15px;
+}
+
+#soundCloudHeader{
+  color: white;
+  font-family: Roboto;
+  text-align: center;
+}
+
+#soundCloudOrange{
+  color: #fa4112;
+}
+
+#soundCloudText{
+  color: white;
+  text-align: center;
+}
+
+.soundCloudContainer {
+  height: 400px;
+  align-items: center;
+  display: flex;
+}
+
+iframe{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 100px;
 }
