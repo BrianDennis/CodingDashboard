@@ -19,7 +19,37 @@ function link (type, link, name){
   this.name = name;
 }
 
-var nodeHome = new link('node','https://nodejs.org/en/','Node Home Page');
-console.log(nodeHome);
+function linkSetter(linkArray){
+  if(linkArray.length > 0){
+    for (var i = 0; i < linkArray.length; i++){
+      switch(linkArray[i].type){
+        case 'node':
+          $('#nodeLink1').href = linkArray[i].link;
+          $('#nodeLink1').innerHTML = linkArray[i].name;
 
-setSoundCloud();
+        case 'react':
+          $('#reactLink1').href = linkArray[i].link;
+          $('#reactLink1').innerHTML = linkArray[i].name;
+
+        case 'angular':
+          $('#angularLink1').href = linkArray[i].link;
+          $('#angularLink1').innerHTML = linkArray[i].name;
+      }
+    }
+  }
+}
+
+
+$('document').ready(function(){
+
+  var nodeHome = new link('node','https://nodejs.org/en/','Node Home Page');
+  var reactHome = new link('react','https://facebook.github.io/react/','React Home Page');
+  var angularHome = new link('angular','https://angularjs.org/','Angular Home Page');
+
+  var links = [nodeHome,reactHome,angularHome];
+
+  console.log($('#nodeLink1').href);
+
+  linkSetter(links);
+  setSoundCloud();
+});
