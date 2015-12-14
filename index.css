@@ -87,16 +87,12 @@ ul{
   text-align: center;
 }
 
-.soundCloudContainer {
+#soundCloudContainer {
   height: 400px;
   align-items: center;
   display: flex;
 }
 
-#playerContainer{
-  align-items: center;
-  display: flex;
-}
 
 .container {
   align-items: center;
@@ -105,4 +101,8 @@ ul{
 
 .soundCloudSection{
   background-color: #a9a9a9;
+}
+
+#content{
+
 }
