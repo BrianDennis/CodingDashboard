@@ -1,5 +1,17 @@
 .body{
-  background-color: #222222;
+  background-color: #ffffff;
+}
+
+#firstSection{
+  background-color: #404040;
+}
+
+.navbarLink{
+  font-size: 1.3em;
+}
+
+#navLinks{
+  margin-right: 20px
 }
 
 h1{
@@ -54,6 +66,12 @@ ul{
   padding-top: 15px;
 }
 
+#titleText{
+  color: #ffffff;
+  font-size: 2em;
+  margin-left: 20px;
+}
+
 #soundCloudHeader{
   color: white;
   font-family: Roboto;
@@ -83,4 +101,8 @@ ul{
 .container {
   align-items: center;
   display flex;
+}
+
+.soundCloudSection{
+  background-color: #a9a9a9;
 }
